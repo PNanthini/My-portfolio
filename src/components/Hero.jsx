@@ -82,15 +82,22 @@ const Hero = () => {
             ease: "easeInOut",
           }}
         />
+<motion.h1
+  className="font-hero text-5xl md:text-6xl font-bold text-white tracking-wider"
+  initial={{ y: 30, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ delay: 0.2 }}
+>
+  Hi, I’m{" "}
+  <span
+    className="text-violet-400 
+               drop-shadow-[0_0_30px_rgba(139,92,246,0.9)]
+               animate-pulse"
+  >
+    NanthiniP
+  </span>
+</motion.h1>
 
-        <motion.h1
-          className="text-5xl md:text-6xl font-bold text-white"
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
-        >
-          Hi, I’m <span className="text-violet-400">NanthiniP</span>
-        </motion.h1>
 
         <motion.p
           className="mt-4 text-xl text-gray-300"
