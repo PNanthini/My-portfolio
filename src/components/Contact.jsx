@@ -147,12 +147,15 @@ const Contact = ({ id }) => {
                   <p className="text-blue-100">Connect for professional networking</p>
                 </div>
               </div>
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-              >
-                Visit Profile
-              </a>
+          <a
+  href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+>
+  Visit Profile
+</a>
+
             </motion.div>
           </div>
 
@@ -283,14 +286,15 @@ const Contact = ({ id }) => {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Let's discuss how strategic HR can drive your organization's success
             </p>
-            <motion.a
-              href="#"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-block bg-white text-blue-600 font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all"
-            >
-              Schedule a Free Consultation
-            </motion.a>
+          <motion.a
+  href="mailto:sarah.rodriguez@hrpro.com"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="inline-block bg-white text-blue-600 font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all"
+>
+  Schedule a Free Consultation
+</motion.a>
+
           </div>
         </motion.div>
       </div>

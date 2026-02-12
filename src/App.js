@@ -67,20 +67,24 @@ function App() {
                 and employee relations. Committed to creating positive workplace 
                 cultures and driving organizational success through people-first strategies.
               </p>
-              <div className="flex gap-4">
-                <a 
-                  href="#" 
-                  className="p-3 bg-gray-800/80 rounded-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:shadow-lg"
-                >
-                  <FiLinkedin size={20} />
-                </a>
-                <a 
-                  href="#" 
-                  className="p-3 bg-gray-800/80 rounded-lg hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:shadow-lg"
-                >
-                  <FiMail size={20} />
-                </a>
-              </div>
+            <div className="flex gap-4">
+  <a 
+    href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 bg-gray-800/80 rounded-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:shadow-lg"
+  >
+    <FiLinkedin size={20} />
+  </a>
+
+  <a 
+    href="mailto:yourmail@gmail.com"
+    className="p-3 bg-gray-800/80 rounded-lg hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:shadow-lg"
+  >
+    <FiMail size={20} />
+  </a>
+</div>
+
             </div>
             <div className="md:text-right">
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 inline-block">
