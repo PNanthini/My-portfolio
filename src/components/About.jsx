@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiTarget, FiUsers, FiTrendingUp, FiShield, FiAward, FiBook } from 'react-icons/fi';
+import { FiTarget, FiUsers, FiTrendingUp, FiShield, FiBook } from 'react-icons/fi';
 
 const About = ({ id }) => {
   const coreValues = [

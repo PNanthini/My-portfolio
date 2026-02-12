@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   FiHome, FiUser, FiAward, FiBriefcase, 
-  FiFileText, FiTool, FiMail 
+FiTool, FiMail 
 } from 'react-icons/fi';
 
 const Navigation = ({ activeSection }) => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  FiTool, FiUsers, FiBarChart2, FiHeart, 
-  FiGlobe, FiTarget, FiMessageSquare, FiBookOpen 
+  FiTool, FiUsers, 
+  FiTarget, FiBookOpen 
 } from 'react-icons/fi';
 
 const Skills = ({ id }) => {

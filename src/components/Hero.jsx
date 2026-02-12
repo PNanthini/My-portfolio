@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload, FiMail, FiChevronDown, FiBriefcase, FiUsers, FiTarget, FiAward } from 'react-icons/fi';
+import { FiDownload, FiMail, FiBriefcase, FiUsers, FiTarget, FiAward } from 'react-icons/fi';
 
 const Hero = ({ id }) => {
   return (
